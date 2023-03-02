@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.icon{
+    scale: .3;
+    padding-top: 0;
+    padding-left: 160rem;
+}
+
+.texto{
+    font-size: 1.5rem;
+}
+
+.saibamais{
+    padding-left: 66rem;
+}
+
+.historia{
+    padding-left: 100rem;
+}
+
+.edicoes{
+    padding-left: 129rem;
+}
+
+header{
+    background-image: url("../images/gameawardsheader.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+h1{
+    float: left;
+    padding-left: 10rem;
+    font-size: 6.4rem;
+    color: #C4C81B;
+}
+
+p{
+    font-size: 1.5rem;
+        
+}
+
+.voltar{
+    font-size: 2rem;
+}
+
