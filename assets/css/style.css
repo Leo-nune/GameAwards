@@ -333,15 +333,13 @@ p.prod{
     }
 
     .pagum div{
-        gap: 20rem;
+
         margin-left: 10%;
 
     }
 
-    .icon{
-        scale: 0.3;
-        padding-top: 0;
-        padding-left: 30%;
+    .icon{      
+         padding-left: 30%;
     }
 }
 
