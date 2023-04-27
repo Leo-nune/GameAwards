@@ -330,16 +330,19 @@ p.prod{
     }
     header::before{
         background: none;
+        animation: none;
     }
 
     .pagum div{
-
+        gap: 20rem;
         margin-left: 10%;
 
     }
 
-    .icon{      
-         padding-left: 30%;
+    .icon{
+        scale: 0.3;
+        padding-top: 0;
+        padding-left: 30%;
     }
 }
 
