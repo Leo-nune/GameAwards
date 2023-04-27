@@ -10,6 +10,36 @@ html{
     font-size: 62.5%;
 }
 
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.spin{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 16px solid #999;
+    border-top: 16px solid #6A3093;
+    animation: spin 2s linear infinite;
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 #hamburguer{
     display: flex;
     justify-content: space-between;
@@ -293,6 +323,31 @@ p.prod{
 #section-budged form output{
     grid-column: 2;
 }
+
+@media (max-width: 980px) {
+    .large-only{
+        display: none
+    }
+    header::before{
+        background: none;
+    }
+
+    .pagum div{
+        gap: 20rem;
+        margin-left: 10%;
+
+    }
+
+    .icon{
+        scale: 0.3;
+        padding-top: 0;
+        padding-left: 30%;
+    }
+}
+
+
+
+
 /*  0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
