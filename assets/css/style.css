@@ -198,7 +198,7 @@ p{
     width: 60rem;
 }
 
-.pagdois{
+#pagdois{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -206,7 +206,7 @@ p{
   
 }
 
-.pagdois div{
+#pagdois div{
     display: flex;
     
     flex-direction: row;
@@ -328,9 +328,23 @@ p.prod{
     .large-only{
         display: none
     }
-    header::before{
-        background: none;
-        animation: none;
+
+    .pagum div{
+        gap: 20rem;
+        margin-left: 10%;
+
+    }
+
+    .icon{
+        scale: 0.3;
+        padding-top: 0;
+        padding-left: 22%;
+    }
+}
+
+@media (max-width: 828px) {
+    .large-only{
+        display: none
     }
 
     .pagum div{
@@ -345,6 +359,7 @@ p.prod{
         padding-left: 22%;
     }
 }
+
 
 
 
